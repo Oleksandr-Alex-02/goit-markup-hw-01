@@ -1,11 +1,7 @@
+.section-header {
+  text-align: center;
+}
 .вкрхняя-линия-1 {
-  background-color: blanchedalmond;
 }
-
 .вкрхняя-линия-2 {
-  background-color: crimson;
-}
-
-.шапка-сайта {
-  background-image: url('/images/img.jpg');
 }
