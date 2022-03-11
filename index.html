@@ -12,10 +12,11 @@
     <header class="section-header">
       <nav class="вкрхняя-линия-1">
         <ul>
+          <li id="header"></li>
           <li><a href="#"></a><span class="stil-WebStudio">Web</span>Studio</li>
-          <li><a href="#"></a>Студия</li>
-          <li><a href="#"></a>Портфолио</li>
-          <li><a href="#"></a>Контакты</li>
+          <li><a href="#ctydia" class="on-ir">Студия</a></li>
+          <li><a href="#porfolio" class="on-ir">Портфолио</a></li>
+          <li><a href="#kontakt" class="on-ir">Контакты</a></li>
         </ul>
       </nav>
       <ul class="вкрхняя-линия-2">
@@ -27,8 +28,8 @@
     <main>
       <!--шапка-->
       <section class="шапка-сайта">
-        <h1>Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="submit">Заказать услугу</button>
+        <h1 class="h1-шапки">Эффективные решения <br />для вашего бизнеса</h1>
+        <button class="button" type="submit">Заказать услугу</button>
       </section>
 
       <!--особености-->
@@ -62,7 +63,9 @@
 
       <!--Чем мы занимаемся-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 id="ctydia">
+          <a href="#header" class="on-ir">Чем мы занимаемся</a>
+        </h2>
         <ul>
           <li><img src="./images/моделирование.png" alt="моделирование" width="370" /></li>
           <li><img src="./images/фото-шоп.png" alt="фото-шоп" width="370" /></li>
@@ -72,7 +75,7 @@
 
       <!--Наша команда-->
       <section>
-        <h2>Наша команда</h2>
+        <h2 id="porfolio"><a href="#header" class="on-ir">Наша команда</a></h2>
         <ul>
           <li>
             <img src="./images/img.jpg" alt="Игорь Демьяненко Product Designer" width="270" />
@@ -91,7 +94,9 @@
 
     <!--подвал-->
     <footer>
-      <h2><span>Web</span>Studio</h2>
+      <h2 id="kontakt">
+        <a href="#header" class="on-ir"><span>Web</span>Studio</a>
+      </h2>
       <address>
         <ul>
           <li>г. Киев, пр-т Леси Украинки, 26</li>
